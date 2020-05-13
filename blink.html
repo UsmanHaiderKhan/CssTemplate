@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blinking Text</title>
+    <style>
+    blink{
+        -webkit-animation: blink 1s linear infinite;
+       -moz-animation: blink 1s linear infinite;
+        animation: blink 1s linear infinite;
+
+    }
+    @-webkit-keyframes blink{
+        0%{opacity: 1;}
+        50%{opacity: 0;}
+        100%{opacity: 1;}
+
+    }
+        @-moz-keyframes blink{
+        0%{opacity: 1;}
+        50%{opacity: 0;}
+        100%{opacity: 1;}
+
+    }
+    @keyframes blink{
+        0%{opacity: 1;}
+        50%{opacity: 0;}
+        100%{opacity: 1;}
+
+    }
+    </style>
+</head>
+<body>
+    <blink>Usman Haider Khan</blink>
+</body>
+</html>

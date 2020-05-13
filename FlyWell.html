@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flying WellCome</title>
+    <link rel="stylesheet"  href="Fly.css">
+</head>
+<body>
+    <div>
+        <ul class="fly-in-text hidden">
+                <li>W</li>
+                <li>E</li>             
+                <li>L</li>
+                <li>C</li>
+                <li>O</li>
+                <li>M</li>
+                <li>E</li>                
+        </ul>
+    </div>
+   <div>
+       <button class="btn btn-primary" type="button"></button>
+   </div>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(function () {
+       setTimeout(function(){
+           $('.fly-in-text').removeClass('hidden');
+       },500) 
+    });
+    </script>
+</body>
+</html>
